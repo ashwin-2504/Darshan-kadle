@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: none;
+}
+
+.left-box {
+  position: absolute;
+  background-color: chocolate;
+  width: 100px;
+  height: 101.5vh;
+  margin-top: -10px;
+}
+
+.logo {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.menu {
+  height: auto;
+  width: 100px;
+}
+
+.menu li {
+  list-style-type: none;
+  display: block;
+}
+
+.home_btn {
+  height: 50px;
+  width: 102px;
+  background-color: rgb(255, 173, 115);
+  border: solid white;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-width: 6px;
+}
+
+.gallery_btn {
+  height: 50px;
+  width: 100px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.genere_btn {
+  height: 50px;
+  width: 100px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.contact_btn {
+  height: 50px;
+  width: 100px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.home_btn:hover,
+.gallery_btn:hover,
+.genere_btn:hover,
+.contact_btn:hover {
+  background-color: rgb(255, 126, 35);
+}
+
+.content {
+  margin-left: 105px;
+  height: 99.1vh;
+}
+
+.home {
+  display: block;
+}
+
+.gallery {
+  display: none;
+}
+
+.genere {
+  display: none;
+}
+
+.contact {
+  display: none;
+}
